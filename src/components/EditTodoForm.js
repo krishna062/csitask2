@@ -2,9 +2,7 @@ import React, {useState} from 'react'
 
 export const EditTodoForm = ({editTodo, task}) => {
 const [value,setValue]=useState(task.task)
-// const handleChange= (e)=>{
-// console.log(e.target.value)
-// }
+
 
 const handleSubmit = e=>{
     e.preventDefault();

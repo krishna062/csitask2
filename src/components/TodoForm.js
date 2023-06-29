@@ -2,9 +2,6 @@ import React, {useState} from 'react'
 
 export const TodoForm = ({addTodo}) => {
 const [value,setValue]=useState("")
-// const handleChange= (e)=>{
-// console.log(e.target.value)
-// }
 
 const handleSubmit = e=>{
     e.preventDefault();
